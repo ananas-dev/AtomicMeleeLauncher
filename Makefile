@@ -5,17 +5,17 @@ CC = g++
 CFLAGS = -g -Wall
 
 # Target
-TARGET = src/melee_client
+TARGET = src/melee
 
 # Destination
 DESTINATION = /bin/
 
 # Name
-NAME = melee_client
+NAME = melee
 all: $(TARGET)
 
 $(TARGET): $(TARGET).cpp
-	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp -l SDL2
+	$(CC) $(CFLAGS) -o $(TARGET) $(TARGET).cpp
 
 install:
 	/bin/cp $(TARGET) $(DESTINATION)
