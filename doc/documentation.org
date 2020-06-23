@@ -1,0 +1,8 @@
+#+TITLE: MELEE LAUNCHER DOCUMENTATION
+#+AUTHOR: Ananas
+
+* Project Slippi's colorscheme
+| lite green | #21BA45 |
+| dark green | #44A963 |
+| dark grey  | #222222 |
+| purple     | #310057 |

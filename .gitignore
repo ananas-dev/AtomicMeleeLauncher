@@ -7,6 +7,7 @@ tmp/
 client/browser_components
 client/node_modules
 client/dist
+game/*
 
 #files
 *.tgz
