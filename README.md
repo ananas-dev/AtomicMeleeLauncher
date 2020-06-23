@@ -2,9 +2,9 @@
 
 ## Important
 
-Even though Atomic uses [Project Slippi's](https://slippi.gg/) color indentity it is **NOT** a first party application.
+Even though Atomic uses [Project Slippi's](https://slippi.gg/) color indentity, it is **NOT** a first party application.
 
-## Instalation
+## Installation
 
 To install and launch you'll need to have [NodeJS](https://nodejs.org/en/) installed.
 
@@ -23,6 +23,19 @@ Finaly launch atomic by doing:
 
 ```sh
 npm --prefix="client" start
+```
+
+## Structure
+
+``` sh
+.
+├── backend    # For some eventual backend stuffs
+├── client     # Most important dir, most of the stuff is here
+├── doc        # Put all the doc here
+├── dolphin    # Where dolphin is located
+├── game       # Where the game is located
+├── LICENCE
+└── README.md
 ```
 
 
