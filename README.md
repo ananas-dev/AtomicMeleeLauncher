@@ -30,7 +30,7 @@ npm --prefix="client" start
 ``` sh
 .
 ├── backend    # For some eventual backend stuffs
-├── client     # Most important dir, most of the stuff is here
+├── client     # Most important dir, most of the stuff are there
 ├── doc        # Put all the doc here
 ├── dolphin    # Where dolphin is located
 ├── game       # Where the game is located
