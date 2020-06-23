@@ -15,11 +15,11 @@ npm --prefix="client" install
 
 ## Usage
 
-First create a directory at the root of the project called **game** and copy melee in it, then rename it **game.iso**.
+First create a directory at the root of the project called **game** and copy melee in it and rename the game **game.iso**.
 
 Then download the last dolphin build from [Project Slippi](https://slippi.gg/netplay), unzip it and rename the output **dolphin**, you can then put it in the root of the project.
 
-Finaly launch atomic by doing:
+Finaly launch Atomic by doing:
 
 ```sh
 npm --prefix="client" start
