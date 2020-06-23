@@ -1,11 +1,37 @@
-# Melee Client
+# Atomic Melee Launcher
 
-## How it should work
+## Important
+
+Even though Atomic uses [Project Slippi's](https://slippi.gg/) color indentity it is **NOT** a first party application.
 
 ## Instalation
 
+To install and launch you'll need to have [NodeJS](https://nodejs.org/en/) installed.
+
 ```sh
-git clone $REPO_URL
-cd $REPO
-make && sudo make install
+cd atomic-melee-client
+npm --prefix="client" install
 ```
+
+## Usage
+
+First create a directory at the root of the project called **game** and copy melee in it, then rename it **game.iso**.
+
+Then download the last dolphin build from [Project Slippi](https://slippi.gg/netplay), unzip it and rename the output **dolphin**, you can then put it in the root of the project.
+
+Finaly launch atomic by doing:
+
+```sh
+npm --prefix="client" start
+```
+
+
+## The future
+
+This launcher should be abble to: 
+
+- [x] Launch the game without showing dolphin
+- [ ] Show stats using slippi
+- [ ] Allow you to set a custom path for dolphin and melee's iso
+- [ ] Allow you to change dolphin's configuration files using a custom gui
+

@@ -1,0 +1,22 @@
+{
+  "name": "melee-launcher",
+  "version": "0.0.0",
+  "description": "A launcher for SSBM",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Ananas",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^9.0.4"
+  }
+}

@@ -1,0 +1,54 @@
+/* Side Bar */
+body {
+    background-color: #222222;
+}
+
+.sideBar {
+    height: 100%;
+    width: 400px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #44A963;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sideBar .logo {
+    width: 160px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.sideBar .button {
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: #e5e9f0;
+    /* Make the buton's background transparent */
+    background-color: Transparent;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    /* Font size */
+    font-size: 40px;
+    /* Transition */
+    transition: 0.3s;
+}
+
+.sideBar .button:hover { color: #d8dee9 }
+
+.comingSoon {
+    text-align: center;
+    margin-left: 200px;
+    font-size: 60px;
+    color: #d8dee9
+}

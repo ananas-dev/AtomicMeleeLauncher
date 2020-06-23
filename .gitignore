@@ -1,0 +1,13 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+#directories
+client/browser_components
+client/node_modules
+client/dist
+
+#files
+*.tgz
+*.log
